@@ -1,0 +1,1 @@
+return cod.getCrecs().firstMatch({ crec -> crec.getCounselingCompleteDate() != null && crec.getCounselingType() == "DLPEntranceCounseling"; }).isPresent();
